@@ -1,0 +1,138 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    /* position: fixed; */
+}
+.container{
+    margin: 0;
+    display: grid;
+    grid-template-columns: 0.1fr 5fr;
+}
+.left-container{
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 40px;
+    background-color: beige;
+    height: 100vh;
+}
+/* .left-container:hover{
+    .container{
+        grid-template-columns: 1fr 4fr;
+    }
+} */
+.right-container{
+    margin: 0;
+}
+.side-panel{
+    margin: 0;
+}
+.side-panel:hover{
+    cursor: pointer;
+}
+.home{
+    display: block;
+    margin-top: 70px;
+}
+#btn {
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 30px;
+}
+
+nav {
+    background-color: black;
+    width: 100%;
+    color: white;
+    /* height: 40px; */
+    padding: 5px;
+    position: fixed;
+}
+
+nav div {
+    margin: 0;
+    text-align: center;
+    font-size: 30px;
+}
+
+p {
+    margin: 38px;
+}
+
+h1 {
+    margin: 38px;
+}
+
+a {
+    margin: 38px;
+}
+
+img {
+    margin: 38px;
+}
+
+div {
+    margin: 20px;
+}
+
+.contact-page{
+    text-align: center;
+    margin-top: 70px;
+    display: none;
+}
+.contact-page input{
+    display: block;
+    margin: auto;
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid gray;
+    border-radius: 0.2rem;
+    font-size: 15px;
+}
+.contact-page textarea{
+    display: block;
+    margin: auto;
+    width: 310px;
+    height: 200px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    border: 1px solid gray;
+    border-radius: 0.2rem;
+}
+.contact-page button{
+    padding: 10px;
+    background-color: rgb(34, 124, 214);
+    border: none;
+    border-radius: 0.2rem;
+    color: white;
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+#submit:hover{
+    cursor: pointer;
+}
+.information{
+    text-align: center;
+    margin-top: 80px;
+    display: none;
+}
+.guide{
+    text-align: center;
+    margin-top: 120px;
+}
+.guide h4{
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+.guide p{
+    margin-top: 5px;
+}
+
+@media screen and (max-width:600px){
+    #img1{
+        width: 400px;
+    }
+}
